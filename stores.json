@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3157,
+          123.993189
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "cake",
+        "specialty": "Red Velvet Cake",
+        "hours": "9am - 6pm",
+        "description": "Number 1 Pastry Shop in the City",
+        "name": "Leona's Cake",
+        "phone": "0999 456 4653",
+        "visit": "0",
+        "storeid": "01"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.315422,
+          123.916453
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "cake",
+        "specialty": "Chocolate Filled Cake",
+        "hours": "9am - 6pm",
+        "description": "Cake ng Bayan",
+        "name": "Goldilocks",
+        "phone": "0933 345 3321",
+        "visit": "0",
+        "storeid": "02"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.308122,
+          123.890653
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "cake",
+        "specialty": "Strawberry Cake",
+        "hours": "9am - 6pm",
+        "description": "Special for all Occasion Cake",
+        "name": "Red Ribbon",
+        "phone": "0912 234 3234",
+        "visit": "0",
+        "storeid": "03"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.317744,
+          123.869999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "eatallyoucan",
+        "specialty": "Beef",
+        "hours": "9am - 10pm",
+        "description": "Beef all you can",
+        "name": "Vikings",
+        "phone": "0988 123 4567",
+        "visit": "0",
+        "storeid": "04"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.326544,
+          123.87667
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "eatallyoucan",
+        "specialty": "Pork",
+        "hours": "9am - 10pm",
+        "description": "Pork all you can",
+        "name": "Cabalen",
+        "phone": "0922 839 9921",
+        "visit": "0",
+        "storeid": "05"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.301122,
+          123.89999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "eatallyoucan",
+        "specialty": "Chicken",
+        "hours": "9am - 10pm",
+        "description": "Chicken all you can",
+        "name": "Buffet 101",
+        "phone": "0988 782 3729",
+        "visit": "0",
+        "storeid": "06"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.330001,
+          123.879999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "seafood",
+        "specialty": "Grilled Squid",
+        "hours": "9am - 10pm",
+        "description": "Seafood Restaurant in the City",
+        "name": "Under the Sea",
+        "phone": "0923 234 3343",
+        "visit": "0",
+        "storeid": "07"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30000,
+          123.88881
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "seafood",
+        "specialty": "Calamares",
+        "hours": "9am - 10pm",
+        "description": "Seafood in the House",
+        "name": "Parilya",
+        "phone": "09223354678",
+        "visit": "0",
+        "storeid": "08"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3157,
+          123.8854
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "category": "seafood",
+        "specialty": "Shrimps",
+        "hours": "9am - 10pm",
+        "description": "Shrimp and Seafood Overload",
+        "name": "Chillin",
+        "phone": "09220908892",
+        "visit": "0",
+        "storeid": "09"
+      }
+    }
+  ]
+}

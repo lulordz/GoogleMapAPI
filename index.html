@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 100%;  
+        width: 100%;  
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .panel {
+      padding: 10px;
+      font-size:20px;
+      position: absolute;
+      top:70px;
+      left:10px;
+      background:white;
+    }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Map</h3>
+    <div id="map"></div>
+    <div class="panel">
+        <label>Category: </label><br/>
+        <input type="checkbox" name="category" id="cake" value="cake" onClick="checkCategory()" checked><label>Cake</label>
+        <input type="checkbox" name="category" id="eatallyoucan" value="eatallyoucan" onClick="checkCategory()" checked><label>Eat All You Can</label>
+        <input type="checkbox" name="category" id="seafood" value="seafood" onClick="checkCategory()" checked><label>Seafood</label>
+    </div>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>  
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO0fSyuuThlBNcXMASLbhN898so73htvw&libraries=drawing&callback=initMap">
+    </script>
+  </body>
+</html>
