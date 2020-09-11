@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<h1>Hello Analytics Reporting API V4</h1>
+<h1>Analytics Reporting</h1>
 
 <!-- The Sign-in button. This will run `queryReports()` on success. -->
 <p class="g-signin2" data-onsuccess="queryReports"></p>
@@ -47,7 +47,9 @@
             ],
             metrics: [
               {
-                expression: 'ga:sessions'
+                expression: 'ga:sessions',
+                expression: 'ga:users',
+                expression: 'ga:transactionRevenue'
               }
             ]
           }
