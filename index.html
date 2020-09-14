@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       #map {
         height: 100%;  
@@ -20,20 +22,45 @@
       background:white;
     }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   </head>
-  <body>
-    <h3>My Google Map</h3>
-    <div id="map"></div>
-    <div class="panel">
-        <label>Category: </label><br/>
-        <input type="checkbox" name="category" id="cake" value="cake" onClick="checkCategory()" checked><label>Cake</label>
-        <input type="checkbox" name="category" id="eatallyoucan" value="eatallyoucan" onClick="checkCategory()" checked><label>Eat All You Can</label>
-        <input type="checkbox" name="category" id="seafood" value="seafood" onClick="checkCategory()" checked><label>Seafood</label>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">My Google Map</h4>
+        </div>
+        <div class="modal-body">
+          <p id="circleCountText">circleCountText</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
-    <script src="app.js"></script>
-    <script type="text/javascript" src="jquery-3.5.1.js"></script>  
-    <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO0fSyuuThlBNcXMASLbhN898so73htvw&libraries=drawing&callback=initMap">
-    </script>
+  </div>
+  <body>
+      <h3>My Google Map</h3>
+      <div id="map"></div>
+      <div class="panel">
+          <label style="font-family: verdana;">Category: </label><br/>
+          <input type="checkbox" name="category" id="cake" value="cake" onClick="checkCategory()" checked><label style="font-family: verdana; padding: 10px">Cake</label><br/>
+          <input type="checkbox" name="category" id="eatallyoucan" value="eatallyoucan" onClick="checkCategory()" checked><label style="font-family: verdana; padding: 10px">Eat All You Can</label><br/>
+          <input type="checkbox" name="category" id="seafood" value="seafood" onClick="checkCategory()" checked><label style="font-family: verdana; padding: 10px">Seafood</label>
+      </div>
+      <div>
+        <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+      </div>
+      <script src="app.js"></script>
+      <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO0fSyuuThlBNcXMASLbhN898so73htvw&libraries=drawing&callback=initMap">
+      </script>
   </body>
 </html>
