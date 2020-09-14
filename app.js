@@ -124,7 +124,7 @@ function initMap() {
         markerCount++;
       }
     }
-    document.getElementById("circleCountText").innerHTML = "The restaurant has " + markerCount + " circles.";
+    document.getElementById("circleCountText").innerHTML = "The circle has " + markerCount + " restaurants.";
     $("#myModal").modal();
   });
 
